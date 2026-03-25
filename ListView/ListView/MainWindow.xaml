@@ -1,0 +1,33 @@
+﻿<Window x:Class="ListView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ListView"
+        mc:Ignorable="d"
+        Title="Employee Database" SizeToContent="WidthAndHeight" ResizeMode="CanResize">
+    <StackPanel Margin="10">
+        <ListView x:Name="LstView">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Emp ID"/>
+                    <GridViewColumn Header="First Name" DisplayMemberBinding="{Binding FstName}"/>
+                    <GridViewColumn Header="Last Name" DisplayMemberBinding="{Binding LastName}"/>
+                    <GridViewColumn Header="D.O.B" DisplayMemberBinding="{Binding DOB, StringFormat = dd-MM-yyyy}"/>
+                    <GridViewColumn Header="E-Mail" DisplayMemberBinding="{Binding EMail}"/>
+                    <GridViewColumn Header="Contact No." DisplayMemberBinding="{Binding ContactNum}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="AddBtn"  Command="{Binding }"  Grid.Column="0" Content="Add" Margin="5"/>
+            <Button x:Name="EditBtn" Grid.Column="1" Content="Edit" Margin="5"/>
+            <Button x:Name="DltBtn" Grid.Column="2" Content="Delete" Margin="5"/>
+        </Grid>
+    </StackPanel>
+</Window>
