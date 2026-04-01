@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordleWPF", "WordleWPF\WordleWPF.csproj", "{D7D27EB8-2BAC-4CA8-AF65-079B2B07D479}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyHandler", "KeyHandler\KeyHandler.csproj", "{063EF657-942C-444D-B58E-B477D974AAB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{D6A451C5-4F38-45BB-AFAB-610C42E54CEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7D27EB8-2BAC-4CA8-AF65-079B2B07D479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D27EB8-2BAC-4CA8-AF65-079B2B07D479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D27EB8-2BAC-4CA8-AF65-079B2B07D479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D27EB8-2BAC-4CA8-AF65-079B2B07D479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{063EF657-942C-444D-B58E-B477D974AAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063EF657-942C-444D-B58E-B477D974AAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063EF657-942C-444D-B58E-B477D974AAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063EF657-942C-444D-B58E-B477D974AAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A451C5-4F38-45BB-AFAB-610C42E54CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A451C5-4F38-45BB-AFAB-610C42E54CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A451C5-4F38-45BB-AFAB-610C42E54CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A451C5-4F38-45BB-AFAB-610C42E54CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08F284FE-0CBD-4031-ACD2-A1FEA98E2E6E}
+	EndGlobalSection
+EndGlobal

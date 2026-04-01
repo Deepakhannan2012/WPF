@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wordle", "Wordle\Wordle.csproj", "{84E077AD-3D4B-4896-B86E-E52D814BDF16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{C83B5B82-FC65-4CF5-B4F0-0CA4E685C307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyHandler", "KeyHandler\KeyHandler.csproj", "{4552B2AB-B09A-4507-B537-4776CAEB4BE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordleUI", "WordleUI\WordleUI.csproj", "{1852D80D-D3D6-45D5-9E30-81E23ECD9872}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84E077AD-3D4B-4896-B86E-E52D814BDF16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84E077AD-3D4B-4896-B86E-E52D814BDF16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84E077AD-3D4B-4896-B86E-E52D814BDF16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84E077AD-3D4B-4896-B86E-E52D814BDF16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C83B5B82-FC65-4CF5-B4F0-0CA4E685C307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83B5B82-FC65-4CF5-B4F0-0CA4E685C307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83B5B82-FC65-4CF5-B4F0-0CA4E685C307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83B5B82-FC65-4CF5-B4F0-0CA4E685C307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4552B2AB-B09A-4507-B537-4776CAEB4BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4552B2AB-B09A-4507-B537-4776CAEB4BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4552B2AB-B09A-4507-B537-4776CAEB4BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4552B2AB-B09A-4507-B537-4776CAEB4BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1852D80D-D3D6-45D5-9E30-81E23ECD9872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1852D80D-D3D6-45D5-9E30-81E23ECD9872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1852D80D-D3D6-45D5-9E30-81E23ECD9872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1852D80D-D3D6-45D5-9E30-81E23ECD9872}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F53B4310-C0E7-45D5-B1EE-80A8901C685D}
+	EndGlobalSection
+EndGlobal

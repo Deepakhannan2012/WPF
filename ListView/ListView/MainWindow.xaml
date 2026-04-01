@@ -25,7 +25,7 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button x:Name="AddBtn"  Command="{Binding }"  Grid.Column="0" Content="Add" Margin="5"/>
+            <Button x:Name="AddBtn" Grid.Column="0" Content="Add" Margin="5"/>
             <Button x:Name="EditBtn" Grid.Column="1" Content="Edit" Margin="5"/>
             <Button x:Name="DltBtn" Grid.Column="2" Content="Delete" Margin="5"/>
         </Grid>
